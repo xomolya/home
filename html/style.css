@@ -1,0 +1,92 @@
+body,ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+
+
+.center {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#fon {
+  
+    width: 100%;
+    background-image: url(img/fon.png)
+
+}
+
+#header-menu {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+
+#body, h1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#centermenu {
+    background: #fff;
+    position: relative;
+    margin: 100px 600px;
+
+}
+
+.myButton
+
+{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px;
+    border-radius: 3px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    box-shadow: rgb(0, 0, 0) 1px 1px 2px 1px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+}
+
+.myButton:hover {
+    background: #1C6EA4;
+}
+
+.myButton:active {
+    background: rgb(35, 136, 203);
+}   
+}
